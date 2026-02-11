@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 SalesPro Dashboard
 
-## Getting Started
+A modern, professional sales performance dashboard built with Next.js, TypeScript, and Recharts. Designed to showcase clean UI/UX, interactive data visualizations, and responsive design principles.
 
-First, run the development server:
+![Dashboard Preview](screenshots/dashboard.png)
 
+## ✨ Features
+
+- **📈 Interactive Analytics** - Real-time revenue trends with beautiful gradient area charts
+- **💼 Pipeline Management** - Visual breakdown of deals across sales stages
+- **👥 Team Performance** - Track top performers with dynamic bar charts
+- **📱 Fully Responsive** - Seamless experience across desktop, tablet, and mobile
+- **🎨 Modern Design** - Clean, professional UI with custom typography and smooth animations
+- **⚡ Fast & Performant** - Built with Next.js 15 App Router for optimal performance
+
+## 🖼️ Screenshots
+
+### Desktop View
+![Desktop Dashboard](screenshots/dashboard.png)
+
+### Mobile View
+<img src="screenshots/mobile.png" alt="Mobile View" width="300">
+
+### Charts & Analytics
+![Charts](screenshots/charts.png)
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Charts:** [Recharts](https://recharts.org/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Fonts:** Space Grotesk & JetBrains Mono
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/salespro-dashboard.git
+cd salespro-dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 📁 Project Structure
+```
+salespro-dashboard/
+├── src/
+│   ├── app/              # Next.js app directory
+│   │   ├── page.tsx      # Main dashboard page
+│   │   ├── layout.tsx    # Root layout
+│   │   └── globals.css   # Global styles
+│   ├── components/       # React components
+│   │   ├── Sidebar.tsx
+│   │   ├── MetricCard.tsx
+│   │   ├── RecentDeals.tsx
+│   │   └── ...
+│   ├── data/            # Mock data generation
+│   ├── types/           # TypeScript type definitions
+│   └── utils/           # Utility functions
+├── public/              # Static assets
+└── screenshots/         # Project screenshots
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Key Features Explained
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dynamic Data Visualization
+- Revenue trend chart with gradient area fill
+- Interactive tooltips and hover effects
+- Responsive chart sizing for all devices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Sales Pipeline Tracking
+- Visual stage breakdown (Lead → Qualified → Proposal → Negotiation → Closed)
+- Real-time deal counts and revenue per stage
+- Color-coded status badges
 
-## Deploy on Vercel
+### Performance Metrics
+- Total Revenue with trend indicators
+- Active Deals count
+- Conversion Rate percentage
+- Average Deal Size
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Purpose
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was built as a portfolio piece to demonstrate:
+
+✅ Modern React patterns and hooks  
+✅ TypeScript for type safety and better DX  
+✅ Responsive design with mobile-first approach  
+✅ Data visualization best practices  
+✅ Clean, maintainable code architecture  
+✅ Professional UI/UX design principles  
+
+## 🚧 Future Enhancements
+
+- [ ] Add authentication and user accounts
+- [ ] Integrate with real backend API
+- [ ] Export data to CSV/PDF
+- [ ] Dark mode toggle
+- [ ] Advanced filtering and search
+- [ ] Real-time data updates with WebSockets
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Your Name**
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern SaaS dashboards
+- Mock data generated for demonstration purposes
+- Built with ❤️ using Next.js and TypeScript
+
+---
+
+⭐ If you found this project interesting, please consider giving it a star!
