@@ -145,7 +145,7 @@ export default function Dashboard() {
                   />
                   
                   <Tooltip 
-                    formatter={(value: number) => formatCurrency(value)}
+                    formatter={(value) => (typeof value === 'number' ? formatCurrency(value) : '')}
                     contentStyle={{ 
                       backgroundColor: '#fff',
                       border: '2px solid #3b82f6',
@@ -200,7 +200,7 @@ export default function Dashboard() {
                     tickFormatter={(value) => `$${(value / 1000).toFixed(0)}k`}
                   />
                   <Tooltip 
-                    formatter={(value: number) => formatCurrency(value)}
+                    formatter={(value) => (typeof value === 'number' ? formatCurrency(value) : '')}
                     contentStyle={{ 
                       backgroundColor: '#fff',
                       border: '2px solid #e2e8f0',
