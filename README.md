@@ -16,13 +16,13 @@ A modern, professional sales performance dashboard built with Next.js, TypeScrip
 ## 🖼️ Screenshots
 
 ### Desktop View
-![Desktop Dashboard](screenshots/dashboard.png)
+![Desktop Dashboard](./screenshots/dashboard.png)
 
 ### Mobile View
-<img src="screenshots/mobile.png" alt="Mobile View" width="300">
+<img src="./screenshots/mobile.png" alt="Mobile View" width="300">
 
 ### Charts & Analytics
-![Charts](screenshots/charts.png)
+![Charts](./screenshots/charts.png)
 
 ## 🛠️ Tech Stack
 
