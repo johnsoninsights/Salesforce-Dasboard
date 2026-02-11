@@ -2,7 +2,7 @@
 
 A modern, professional sales performance dashboard built with Next.js, TypeScript, and Recharts. Designed to showcase clean UI/UX, interactive data visualizations, and responsive design principles.
 
-![Dashboard Preview](https://raw.githubusercontent.com/your-username/your-repo-name/main/screenshots/dashboard.png)
+![Dashboard Preview](https://raw.githubusercontent.com/johnsoninsights/Salesforce-Dasboard/main/screenshots/dashboard.png)
 
 ## ✨ Features
 
@@ -16,13 +16,13 @@ A modern, professional sales performance dashboard built with Next.js, TypeScrip
 ## 🖼️ Screenshots
 
 ### Desktop View
-![Desktop Dashboard](./screenshots/dashboard.png)
+![Desktop Dashboard](https://raw.githubusercontent.com/johnsoninsights/Salesforce-Dasboard/main/screenshots/dashboard.png)
 
 ### Mobile View
-<img src="./screenshots/mobile.png" alt="Mobile View" width="300">
+<img src="https://raw.githubusercontent.com/johnsoninsights/Salesforce-Dasboard/main/screenshots/mobile.png" alt="Mobile View" width="300">
 
 ### Charts & Analytics
-![Charts](./screenshots/charts.png)
+![Charts](https://raw.githubusercontent.com/johnsoninsights/Salesforce-Dasboard/main/screenshots/charts.png)
 
 ## 🛠️ Tech Stack
 
@@ -44,8 +44,8 @@ A modern, professional sales performance dashboard built with Next.js, TypeScrip
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/salespro-dashboard.git
-cd salespro-dashboard
+git clone https://github.com/johnsoninsights/Salesforce-Dasboard.git
+cd Salesforce-Dasboard
 ```
 
 2. Install dependencies
@@ -62,7 +62,7 @@ npm run dev
 
 ## 📁 Project Structure
 ```
-salespro-dashboard/
+Salesforce-Dasboard/
 ├── src/
 │   ├── app/              # Next.js app directory
 │   │   ├── page.tsx      # Main dashboard page
@@ -124,10 +124,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+**Evan Johnson**
+- GitHub: [@johnsoninsights](https://github.com/johnsoninsights)
+- Portfolio: [evanjohnson.dev](https://evanjohnson.dev)
 
 ## 🙏 Acknowledgments
 
