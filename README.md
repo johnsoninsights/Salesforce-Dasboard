@@ -2,7 +2,7 @@
 
 A modern, professional sales performance dashboard built with Next.js, TypeScript, and Recharts. Designed to showcase clean UI/UX, interactive data visualizations, and responsive design principles.
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](./screenshots/dashboard.png)
 
 ## ✨ Features
 
